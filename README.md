@@ -2,6 +2,18 @@
 
 Package to verify the network connection status
 
+## Example
+
+```dart 
+if (await ConnectionVerify.connectionStatus()){
+      print("I have network connection!");
+      //Do your online stuff here
+    } else {
+      print("I don't have network connection!");
+      //Do your offline stuff here
+    }
+```
+
 ## Getting Started
 
 This project is a starting point for a Dart
