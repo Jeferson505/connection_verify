@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - 2020-02-27.
 
-* TODO: Describe initial release.
+* This package allows to knows how is the network connection status, for Android and iOS, 'true' if is connected, 'false' if is not.

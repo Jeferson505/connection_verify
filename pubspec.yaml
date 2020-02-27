@@ -1,8 +1,8 @@
 name: connection_verify
 description: Package to verify the network connection status
 version: 0.0.1
-author:
-homepage:
+author: JoseHenrique Roveda<zeh.henrique92@gmail.com>
+homepage: https://github.com/josehenriqueroveda/connection_verify
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
