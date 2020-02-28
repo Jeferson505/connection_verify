@@ -11,13 +11,13 @@ class ConnectionVerify {
       // It's used 'example.com' because it has a global range
       final result = await InternetAddress.lookup('example.com');
       if (result.isNotEmpty && result[0].rawAddress.isNotEmpty) {
-        print('connected');
+        // CONNECTED
         // Here it's returned 'true', so the response of 'lookup' was sucessful
         return true;
       }
       return false;
     } on SocketException catch (_) {
-      print('not connected');
+      // NOT CONNECTED
       // Here the 'lookup' returned and exception, so there is not connection
       return false;
     }
