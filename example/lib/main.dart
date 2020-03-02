@@ -33,21 +33,26 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _incrementCounter() async {
+    // The network connection verification occurs every time this function is called.
+    // It must occur inside an 'async' function, because this verification depends on the 'await' of the result
+    // of the 'ping' test in 'example.com' site.
 
-    //VERIFY THE NETWORK CONNECTION:
-
+    // VERIFY THE NETWORK CONNECTION:
     if (await ConnectionVerify.connectionStatus()){
       print("I have network connection!");
-      //Do your online stuff here
+      // Every time the ConnectionVerify.connectionStatus() returns 'true', there is network connection available.
+      // Do your online stuff here
     } else {
       print("I don't have network connection!");
-      //Do your offline stuff here
+      // So, when the verification returns false, you are Offline, so offline treatments must be done here.
+      // Do your offline stuff here
     }
     setState(() {
       _counter++;
     });
   }
 
+  // The default 'counter app' build view
   @override
   Widget build(BuildContext context) {
     return Scaffold(
