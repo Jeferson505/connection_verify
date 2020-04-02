@@ -1,6 +1,6 @@
 name: connection_verify
 description: Package to verify the network connection status, it allows to knows how is the network connection status, for Android and iOS, 'true' if is connected, 'false' if is not.
-version: 1.0.3
+version: 1.0.4
 author: JoseHenrique Roveda<zeh.henrique92@gmail.com>
 homepage: https://github.com/josehenriqueroveda/connection_verify
 

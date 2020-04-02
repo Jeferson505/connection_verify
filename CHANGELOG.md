@@ -17,3 +17,7 @@
 ## [1.0.3] - 2020-03-02.
 
 * Code readability improvements.
+
+## [1.0.4] - 2020-04-02.
+
+* Provided dart doc.
