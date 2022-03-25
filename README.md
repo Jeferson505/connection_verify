@@ -4,6 +4,18 @@ Forked from [josehenriqueroveda/connection_verify](https://github.com/josehenriq
 
 Flutter package to verify network connection status.
 
+## Installation via GitHub
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Add the follwing line inside pubspec.yaml:
+  connection_verify:
+    git: https://github.com/Jeferson505/connection_verify.git
+```
+
 ## Example
 
 ```dart 
