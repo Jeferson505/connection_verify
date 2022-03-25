@@ -1,6 +1,8 @@
 # connection_verify
 
-Package to verify the network connection status
+Forked from [josehenriqueroveda/connection_verify](https://github.com/josehenriqueroveda/connection_verify "Original package")
+
+Flutter package to verify network connection status.
 
 ## Example
 
