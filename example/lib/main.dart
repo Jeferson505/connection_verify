@@ -14,21 +14,21 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Connection Verify Example'),
+      home: const _MyHomePage(title: 'Connection Verify Example'),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
+class _MyHomePage extends StatefulWidget {
   final String title;
 
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
+  const _MyHomePage({Key? key, required this.title}) : super(key: key);
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends State<_MyHomePage> {
   String _statusConnection = 'Unknown';
 
   void _setStatusConnection(String status) {
